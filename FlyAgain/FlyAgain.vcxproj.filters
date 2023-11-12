@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{c5ecdbde-25a3-46b6-b696-c3fbe3c111f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{069a5a8d-1a67-411e-bef3-44a2dd7cd176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene">
+      <UniqueIdentifier>{e5cb62d1-071e-45e5-824f-5d391eeddbae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\FpsControll">
+      <UniqueIdentifier>{d257dfbe-c3c5-4b34-bb23-557c509f050e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\SceneManager">
+      <UniqueIdentifier>{b1798320-7d4f-47a0-b321-ef88af1ca49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\MenuScene">
+      <UniqueIdentifier>{db7f3af5-3bca-4fed-98c9-45ea084cabd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\GameScene">
+      <UniqueIdentifier>{fd0fc5d3-8509-483a-b335-b3daf6dd099c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\ResultScene">
+      <UniqueIdentifier>{110a8523-31c2-46eb-bbfe-088363e088ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\GameScene\Field">
+      <UniqueIdentifier>{c6a1f617-e562-45f5-83ee-0393a93237dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\GameScene\Player">
+      <UniqueIdentifier>{53df54a4-97d7-4d92-b47a-eec34f070e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\GameScene\Mouse">
+      <UniqueIdentifier>{91da7b40-51eb-4663-b7bb-c39001c330f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\GameScene\Cheese">
+      <UniqueIdentifier>{2c95d958-383b-4ad1-bc83-697ea647b25e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\GameScene\ObstructManager">
+      <UniqueIdentifier>{0c34d929-8f67-49ca-ad0b-f76d4d6812bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\GameScene\Collision">
+      <UniqueIdentifier>{5033a885-eb87-421e-9943-5a34cb6c2981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\PadInput">
+      <UniqueIdentifier>{b682e51a-d322-4004-bbef-bd04f5a6af69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\GameScene\Wrench">
+      <UniqueIdentifier>{fabe31f5-19b9-431f-a827-3324d349f63c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\UIManager">
+      <UniqueIdentifier>{c21ac9d4-42ed-44c5-a2db-c869c9f56a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\GameScene\GameUI">
+      <UniqueIdentifier>{9ac51514-6ad4-4e36-b77f-d580dbbd7eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Font">
+      <UniqueIdentifier>{995cf5cf-a3ff-461d-8e65-da400731c34d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\ModelManager">
+      <UniqueIdentifier>{3ab138a1-c2d9-4abb-9411-5664d04d3a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\GameScene\Effect">
+      <UniqueIdentifier>{ed2d8a5e-3016-4ee6-9265-93ee8e60f5b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="FpsControll.cpp">
+      <Filter>ソース ファイル\System\FpsControll</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\System\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>ソース ファイル\Game\Scene\MenuScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ソース ファイル\Game\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>ソース ファイル\Game\Scene\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstructManager.cpp">
+      <Filter>ソース ファイル\Game\Scene\GameScene\ObstructManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheese.cpp">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Cheese</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="PadInput.cpp">
+      <Filter>ソース ファイル\System\PadInput</Filter>
+    </ClCompile>
+    <ClCompile Include="Wrench.cpp">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Wrench</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>ソース ファイル\System\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI.cpp">
+      <Filter>ソース ファイル\Game\Scene\GameScene\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>ソース ファイル\System\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>ソース ファイル\System\ModelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="FpsControll.h">
+      <Filter>ソース ファイル\System\FpsControll</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>ソース ファイル\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ソース ファイル\System\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>ソース ファイル\Game\Scene\MenuScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>ソース ファイル\Game\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>ソース ファイル\Game\Scene\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstructManager.h">
+      <Filter>ソース ファイル\Game\Scene\GameScene\ObstructManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheese.h">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Cheese</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="PadInput.h">
+      <Filter>ソース ファイル\System\PadInput</Filter>
+    </ClInclude>
+    <ClInclude Include="Wrench.h">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Wrench</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>ソース ファイル\System\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.h">
+      <Filter>ソース ファイル\Game\Scene\GameScene\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>ソース ファイル\System\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>ソース ファイル\System\ModelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>ソース ファイル\Game\Scene\GameScene\Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
